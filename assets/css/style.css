@@ -526,6 +526,7 @@ footer {
   .nav-links a:last-child { border-bottom: none; }
   .nav-toggle { display: block; }
   section { padding: 56px 0; }
+  .pull-quote { font-size: 1.1rem; }
   .contact-hero { padding: 64px 0 88px; }
   .contact-meta { gap: 28px; }
 }
