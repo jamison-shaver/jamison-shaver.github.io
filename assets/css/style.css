@@ -315,6 +315,20 @@ section { padding: 84px 0; }
 
 /* ---------- Timeline (experience page) ---------- */
 .timeline { position: relative; }
+.tl-org-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 2px;
+}
+.tl-logo {
+  height: 28px;
+  width: auto;
+  max-width: 120px;
+  object-fit: contain;
+  flex-shrink: 0;
+  mix-blend-mode: multiply;
+}
 .tl-item {
   position: relative;
   padding: 0 0 56px 44px;
@@ -335,7 +349,6 @@ section { padding: 84px 0; }
   font-family: var(--serif);
   font-size: 1.5rem;
   color: var(--navy);
-  margin-bottom: 2px;
 }
 .tl-org-sub { color: var(--muted); font-size: 0.92rem; margin-bottom: 18px; }
 .tl-role {
